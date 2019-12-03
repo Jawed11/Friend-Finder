@@ -13,7 +13,7 @@
     ".chosen-select-width": {
       width: "95%"
     }
-  };
+  }; 
 
   for (var selector in config) {
     $(selector).chosen(config[selector]);
@@ -60,7 +60,6 @@
           $("#q10").val()
         ]
       };
-
      
       $.post("/api/friends", userData, function(data) {
 
