@@ -1,9 +1,11 @@
 body{
 background-color: rgb(102, 101, 101);
+padding-top: 25px;
 }
 
 .container{
 background-color: rgb(160, 156, 150);
+padding-top: 25px;
 } 
 
 .jumbotron{
